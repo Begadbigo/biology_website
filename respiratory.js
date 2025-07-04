@@ -540,7 +540,7 @@ teria and particles of air pollution that enter with inhaled
  the mucus toward the pharynx. Most of this mucus is
  eventually swallowed, and most bacteria present will be
  destroyed by the hydrochloric acid in the gastric juice.`,
-    image: "images\mouth.png"
+    image: "mouth.png"
   },
 
   trachea: {
