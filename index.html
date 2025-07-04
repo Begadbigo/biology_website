@@ -1,14 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset="UTF-8">
+  <title>BioLearn - Interactive Biology</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    
+
+
+  <nav class="navbar">
+    <div class="logo">BioLearn</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#systems">Body Systems</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+<section id="home" class="glass-section">
+
+  <h2>Welcome to BioLearn</h2>
+  <p>
+    BioLearn is your interactive companion for exploring the human body.
+    We believe learning biology should be visual, dynamic, and fun — not memorized from a textbook!
+  </p>
+  <p>
+    Dive into beautifully illustrated body systems, explore animations and videos,
+    and test your knowledge with interactive quizzes designed to help you learn better and remember longer.
+  </p>
+  <p>
+    Whether you're a student, teacher, or simply curious, BioLearn is here to make the complex simple and the learning enjoyable.
+  </p>
+</section>
+<blockquote>"Science is a way of thinking much more than it is a body of knowledge." – Carl Sagan</blockquote>
+
+
+
+<section id="systems" class="glass-section">
+  <h2>Body Systems</h2>
+  <p>Explore major human body systems below.</p>
+
+  <div class="cards">
+    <div class="card">
+      <i class="fas fa-utensils fa-2x card-icon"></i>
+      <h3>Digestive System</h3>
+      <p>Breaks down food and absorbs nutrients.</p>
+      <button onclick="location.href='digestive.html'">Explore</button>
+    </div>
+
+
+    <div class="card">
+      <i class="fas fa-lungs fa-2x card-icon"></i>
+      <h3>Respiratory System</h3>
+      <p>Brings oxygen into the body and removes carbon dioxide.</p>
+      <button onclick="location.href='respiratory.html'">Explore</button>
+    </div>
+
+    <div class="card coming-soon">
+      <i class="fas fa-brain fa-2x card-icon"></i>
+      <h3>Nervous System</h3>
+      <p>Controls body functions and activities.</p>
+      <button disabled>Coming Soon</button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="quiz" class="glass-section">
+  <h2>Test Your Knowledge</h2>
+  <p>Take quick quizzes to reinforce what you’ve learned!</p>
+
+  <div class="cards">
+
+    <div class="card">
+      <i class="fas fa-utensils fa-2x card-icon"></i>
+      <h3>Digestive System Quiz</h3>
+      <p>10 questions to check your understanding of digestion.</p>
+      <button onclick="location.href='digestive-quiz.html'">Start Quiz</button>
+    </div>
+
+
+    <div class="card">
+      <i class="fas fa-lungs fa-2x card-icon"></i>
+      <h3>Respiratory System Quiz</h3>
+      <p>Test your knowledge of the lungs and breathing process.</p>
+      <button onclick="location.href='respiratory-quiz.html'">Start Quiz</button>
+    </div>
+
+
+    <div class="card coming-soon">
+      <i class="fas fa-brain fa-2x card-icon"></i>
+      <h3>Nervous System Quiz</h3>
+      <p>Challenge coming soon!</p>
+      <button disabled>Coming Soon</button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="about" class="glass-section">
+    <h2>About BioLearn</h2>
+    <p><strong>BioLearn</strong> is an interactive educational platform designed to help students explore human biology in a fun, engaging, and hands-on way.</p>
+
+    <h3>🎯 Our Mission</h3>
+    <p>To simplify complex biological systems through visuals, simulations, and quizzes — so anyone can learn, remember, and enjoy biology!</p>
+
+    <h3>💡 Features</h3>
+    <ul>
+      <li>Interactive diagrams and animations</li>
+      <li>Quizzes with instant feedback and progress tracking</li>
+      <li>Fun facts and videos to spark curiosity</li>
+      <li>Designed for self-learning, classrooms, and revision</li>
+    </ul>
+
+    <h3>📘 Who Is It For?</h3>
+    <p>BioLearn is perfect for middle and high school students, science teachers, and curious minds looking to understand the human body better.</p>
+
+    <p>We believe learning biology shouldn't be boring. With BioLearn, it's alive.</p>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  <p>You can reach out through any of the platforms below:</p>
+
+  <div class="social-links">
+    <a href="mailto:begadbagod55@gmail.com" target="_blank" title="Gmail">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/begad-wael-470a25366" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Begadbigo" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+  <p class="credit">© 2025 BioLearn. Designed for students, by students.</p>
+</section>
+
+
+
+  <canvas id="bioParticles"></canvas>
+
 </body>
 </html>
+
