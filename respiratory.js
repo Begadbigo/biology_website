@@ -539,8 +539,8 @@ teria and particles of air pollution that enter with inhaled
  air are trapped on the mucus; the cilia continuously sweep
  the mucus toward the pharynx. Most of this mucus is
  eventually swallowed, and most bacteria present will be
- destroyed by the hydrochloric acid in the gastric juice.`,
-    image: "mouth.png"
+ destroyed by the hydrochloric acid in the gastric juice.<br>
+  <img src="mouth.png" alt="Nasal Cavity" style="max-width: 100%; height: auto; display: block; margin: 10px auto;" />`
   },
 
   trachea: {
