@@ -1,4 +1,3 @@
-// Scroll to a section by ID (e.g., when clicking "See the System")
 function scrollToSection(id) {
   const section = document.getElementById(id);
   if (section) {
@@ -6,7 +5,7 @@ function scrollToSection(id) {
   }
 }
 
-// Organ data (add more organs here)
+
 function showInfo(organId) {
   const infoBox = document.getElementById('infoBox');
 
@@ -211,7 +210,6 @@ duced by the normal flora, the trillions of bacteria that live in
 }
 
 function toggleOrgan(organId, checkbox) {
-  // Organ groups: key is checkbox ID, value is list of SVG element IDs to show/hide
   const organGroups = {
     liver: ['liver', 'gallbladder'],
     stomach: ['stomach'],
@@ -236,7 +234,6 @@ function toggleOrgan(organId, checkbox) {
 function resetSVG() {
   const wrapper = document.getElementById('svgWrapper');
 
-  // Toggle the "shrunk" class
   if (wrapper.classList.contains('shrunk')) {
     wrapper.classList.remove('shrunk');
   } else {
@@ -247,7 +244,6 @@ function resetSVG() {
 function showVideo() {
   const container = document.getElementById('videoContainer');
 
-  // Only load once
   if (!container.innerHTML) {
     container.innerHTML = `
       <iframe width="100%" height="400" 
